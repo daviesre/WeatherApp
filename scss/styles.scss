@@ -1,0 +1,34 @@
+$gray : #d3d3d3;
+$yellow: #EAD2AC;
+$pink: #FE938C;
+
+body {
+  background-color: #4281A4;
+
+}
+
+.container {
+  text-align: center;
+  background: $yellow;
+  padding: 40px 80px;
+  #weatherLocation {
+    margin-left: 50px;
+    font-weight: bold;
+    text-align: center;
+    background: $pink;
+    color: #555;
+    border-radius: 80px;
+    width: 200px;
+    height: 50px;
+    outline:none;
+  }
+  #weatherLocation:hover {
+    background: #dd778C;
+    color: white;
+  }
+  #location {
+    height: 45px;
+    font-size: 25px;
+    font-family: 'Archivo Narrow', sans-serif;
+  }
+}
